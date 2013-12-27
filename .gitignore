@@ -2,6 +2,7 @@
 wp
 .htaccess
 local-config.php
+composer.lock
 
 # WP-CLI
 db-sync

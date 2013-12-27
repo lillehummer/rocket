@@ -23,8 +23,12 @@
   "require": {
     "php": ">=5.3.0",
     "wordpress": "3.8",
-    "fancyguy/webroot-installer": "1.1.0",
-    "composer/installers": "v1.0.6"
+    "fancyguy/webroot-installer": "*",
+    "composer/installers": "*",
+    "wpackagist/wordpress-seo": "*",
+    "wpackagist/google-analytics-for-wordpress": "*",
+    "wpackagist/regenerate-thumbnails": "*",
+    "wpackagist/w3-total-cache": "*"
   },
   "extra": {
     "installer-paths": {
