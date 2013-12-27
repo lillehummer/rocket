@@ -11,7 +11,7 @@
         "version": "3.8",
         "type": "webroot",
         "dist": {
-          "type": "git",
+          "type": "zip",
           "url": "https://github.com/WordPress/WordPress/archive/3.8.zip"
         },
         "require" : {
