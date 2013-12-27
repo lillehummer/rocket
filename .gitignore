@@ -9,10 +9,10 @@ db-sync
 sql-dump-*.sql
 
 # Application
-content/uploads
-content/upgrade
-content/plugins/*
-content/mu-plugins/*
+app/uploads
+app/upgrade
+app/plugins/*
+app/mu-plugins/*
 
 # Vendor (e.g. Composer)
 vendor/*
