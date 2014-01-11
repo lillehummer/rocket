@@ -1,0 +1,27 @@
+{
+	"folders":
+    [
+        {
+            "name": "theme",
+            "path": "app/themes/bones",
+            "folder_exclude_patterns": [],
+            "file_exclude_patterns": ["*.css", "*.min.js"]
+        },
+        {
+            "name": "woocommerce",
+            "path": "app/plugins/bones",
+            "folder_exclude_patterns": [],
+            "file_exclude_patterns": ["*.css", "*.min.js"]
+        },
+        {
+            "name": "root",
+            "path": "/",
+            "folder_exclude_patterns": ["wp", "content"],
+            "file_exclude_patterns": []
+        }
+    ],
+    "settings":
+    {
+        "tab_size": 4
+    }
+}

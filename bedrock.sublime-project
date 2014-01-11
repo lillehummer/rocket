@@ -1,0 +1,21 @@
+{
+	"folders":
+    [
+        {
+            "name": "theme",
+            "path": "app/themes/biggermusclesnl",
+            "folder_exclude_patterns": [],
+            "file_exclude_patterns": ["*.css", "*.min.js"]
+        },
+        {
+            "name": "root",
+            "path": "/",
+            "folder_exclude_patterns": ["wp", "content"],
+            "file_exclude_patterns": []
+        }
+    ],
+    "settings":
+    {
+        "tab_size": 4
+    }
+}
