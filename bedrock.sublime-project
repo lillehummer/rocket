@@ -3,7 +3,7 @@
     [
         {
             "name": "theme",
-            "path": "app/themes/biggermusclesnl",
+            "path": "app/themes/bones",
             "folder_exclude_patterns": [],
             "file_exclude_patterns": ["*.css", "*.min.js"]
         },
