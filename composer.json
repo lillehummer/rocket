@@ -1,26 +1,36 @@
 {
-  "name"        : "lillehummer/bedrock",
-  "description" : "WordPress package developed by Lille Hummer.",
-  "type"        : "project",
-  "repositories": [
-    {
-      "type": "composer",
-      "url" : "http://wpackagist.org"
-    }
-  ],
-  "require"     : {
-    "johnpbloch/wordpress": "~3.8",
-    "wpackagist/wordpress-seo": "*",
-    "wpackagist/google-analytics-for-wordpress": "*",
-    "wpackagist/regenerate-thumbnails": "*",
-    "wpackagist/w3-total-cache": "*"
-  },
-  "extra"       : {
-    "wordpress-install-dir": "wp",
-    "installer-paths"      : {
-      "app/plugins/{$name}"   : ["type:wordpress-plugin"],
-      "app/mu-plugins/{$name}": ["type:wordpress-muplugin"],
-      "app/themes/{$name}"    : ["type:wordpress-theme"]
-    }
-  }
+	"name"        : "lillehummer/bedrock",
+	"description" : "WordPress package developed by Lille Hummer.",
+	"type"        : "project",
+	"repositories": [
+		{
+			"type": "composer",
+			"url" : "http://wpackagist.org"
+		},
+		{
+			"type": "composer",
+			"url": "http://packages.lillehummer.nl"
+		}
+	],
+	"require"     : {
+		"johnpbloch/wordpress": "~3.8",
+		"wpackagist/wordpress-seo": "*",
+		"wpackagist/google-analytics-for-wordpress": "*",
+		"wpackagist/regenerate-thumbnails": "*",
+		"wpackagist/w3-total-cache": "*",
+		"wpackagist/limit-login-attempts": "*",
+		"wpackagist/better-wp-security": "*"
+	},
+	"extra"       : {
+		"wordpress-install-dir": "wp",
+		"installer-paths"      : {
+			"app/plugins/{$name}"   : ["type:wordpress-plugin"],
+			"app/mu-plugins/{$name}": [
+					"type:wordpress-muplugin",
+					"wpackagist/limit-login-attempts",
+					"wpackagist/better-wp-security"
+			],
+			"app/themes/{$name}"    : ["type:wordpress-theme"]
+		}
+	}
 }
