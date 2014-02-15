@@ -44,3 +44,13 @@ local-config.php
 
 # Sublime Text Project Files
 *.sublime-workspace
+
+/composer.lock
+/vendor
+
+# W3 Total Cache
+/app/w3-total-cache*
+/app/w3tc-config
+/app/w3tc-*/**/**
+/app/advanced-cache.php
+/app/object-cache.php

@@ -19,8 +19,17 @@
     "wpackagist/regenerate-thumbnails": "*",
     "wpackagist/w3-total-cache": "*",
     "wpackagist/limit-login-attempts": "*",
-    "wpackagist/better-wp-security": "*"
+    "wpackagist/better-wp-security": "*",
+    "wpackagist/wordfence": "*"
   },
+  "scripts": {
+        "post-install-cmd": [
+            "lillehummer\\Wordpress\\Composer\\ScriptHandler::generateRandomKeys"
+        ],
+        "post-update-cmd": [
+            "lillehummer\\Wordpress\\Composer\\ScriptHandler::generateRandomKeys"
+        ]
+    },
   "extra"       : {
     "wordpress-install-dir": "wp",
     "installer-paths"      : {
