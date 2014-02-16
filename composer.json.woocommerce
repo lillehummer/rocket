@@ -20,7 +20,10 @@
     "wpackagist/w3-total-cache": "*",
     "wpackagist/limit-login-attempts": "*",
     "wpackagist/better-wp-security": "*",
-    "wpackagist/wordfence": "*"
+    "wpackagist/wordfence": "*",
+    "wpackagist/woocommerce": "*",
+    "lillehummer/woocommerce-gateway-mollie-ideal": "*",
+    "lillehummer/woocommerce-table-rate-shipping": "*"
   },
   "scripts": {
         "post-install-cmd": [

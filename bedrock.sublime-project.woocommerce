@@ -9,7 +9,7 @@
         },
         {
             "name": "woocommerce",
-            "path": "app/plugins/bones",
+            "path": "app/plugins/woocommerce",
             "folder_exclude_patterns": [],
             "file_exclude_patterns": ["*.css", "*.min.js"]
         },

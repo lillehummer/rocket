@@ -23,7 +23,7 @@ define( 'DB_COLLATE', '' );
 // ===================
 // https://api.wordpress.org/secret-key/1.1/salt
 // ===================
-require_once('./random-keys.php');
+require('salts.php');
 
 
 // ============
