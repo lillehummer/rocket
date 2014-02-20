@@ -18,12 +18,16 @@
     "wpackagist/google-analytics-for-wordpress": "*",
     "wpackagist/regenerate-thumbnails": "*",
     "wpackagist/w3-total-cache": "*",
-    "wpackagist/limit-login-attempts": "*",
     "wpackagist/better-wp-security": "*",
     "wpackagist/wordfence": "*",
     "wpackagist/woocommerce": "*",
     "lillehummer/woocommerce-gateway-mollie-ideal": "*",
     "lillehummer/woocommerce-table-rate-shipping": "*"
+  },
+  "require-dev": {
+        "wpackagist/query-monitor": "*",
+        "wpackagist/theme-check": "*",
+        "wpackagist/developer": "*"
   },
   "scripts": {
         "post-install-cmd": [

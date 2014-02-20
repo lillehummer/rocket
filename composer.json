@@ -18,10 +18,14 @@
 		"wpackagist/google-analytics-for-wordpress": "*",
 		"wpackagist/regenerate-thumbnails": "*",
 		"wpackagist/w3-total-cache": "*",
-		"wpackagist/limit-login-attempts": "*",
 		"wpackagist/better-wp-security": "*",
 		"wpackagist/wordfence": "*"
 	},
+	"require-dev": {
+        "wpackagist/query-monitor": "*",
+        "wpackagist/theme-check": "*",
+        "wpackagist/developer": "*"
+    },
 	"autoload": {
         "psr-0": { "": "src/" }
     },
