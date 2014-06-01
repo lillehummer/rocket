@@ -20,6 +20,8 @@
     "wpackagist/w3-total-cache": "*",
     "wpackagist/better-wp-security": "*",
     "wpackagist/wordfence": "*",
+    "wpackagist/bruteprotect": "*",
+    "wpackagist/google-authenticator": "*",
     "wpackagist/woocommerce": "*",
     "lillehummer/woocommerce-gateway-mollie-ideal": "*",
     "lillehummer/woocommerce-table-rate-shipping": "*"
@@ -28,7 +30,10 @@
         "wpackagist/query-monitor": "*",
         "wpackagist/theme-check": "*",
         "wpackagist/developer": "*"
-  },
+    },
+  "autoload": {
+        "psr-0": { "": "src/" }
+    },
   "scripts": {
         "post-install-cmd": [
             "lillehummer\\Wordpress\\Composer\\ScriptHandler::generateRandomKeys"

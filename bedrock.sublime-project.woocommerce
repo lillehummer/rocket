@@ -16,7 +16,7 @@
         {
             "name": "root",
             "path": "/",
-            "folder_exclude_patterns": ["wp", "content"],
+            "folder_exclude_patterns": ["wp", "app"],
             "file_exclude_patterns": []
         }
     ],

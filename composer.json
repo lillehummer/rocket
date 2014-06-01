@@ -19,7 +19,9 @@
 		"wpackagist/regenerate-thumbnails": "*",
 		"wpackagist/w3-total-cache": "*",
 		"wpackagist/better-wp-security": "*",
-		"wpackagist/wordfence": "*"
+		"wpackagist/wordfence": "*",
+		"wpackagist/bruteprotect": "*",
+		"wpackagist/google-authenticator": "*"
 	},
 	"require-dev": {
         "wpackagist/query-monitor": "*",
