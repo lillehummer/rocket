@@ -5,7 +5,7 @@
 if ( file_exists( dirname( __FILE__ ) . '/local-config.php' ) ) {
 	include( dirname( __FILE__ ) . '/local-config.php' );
 } else {
-	define('DB_NAME', 'bedrock');
+	define('DB_NAME', 'lillehummernl');
 	define('DB_USER', 'root');
 	define('DB_PASSWORD', 'root');
 	define('DB_HOST', 'localhost');

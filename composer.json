@@ -1,5 +1,5 @@
 {
-	"name"        : "lillehummer/bedrock",
+	"name"        : "lillehummer/lillehummernl",
 	"description" : "WordPress package developed by Lille Hummer.",
 	"type"        : "project",
 	"repositories": [
@@ -13,15 +13,16 @@
 		}
 	],
 	"require"     : {
-		"johnpbloch/wordpress": "~3.8",
+		"johnpbloch/wordpress": "~4",
 		"wpackagist/wordpress-seo": "*",
 		"wpackagist/google-analytics-for-wordpress": "*",
 		"wpackagist/regenerate-thumbnails": "*",
 		"wpackagist/w3-total-cache": "*",
-		"wpackagist/better-wp-security": "*",
+		"wpackagist/better-wp-security": "~4",
 		"wpackagist/wordfence": "*",
 		"wpackagist/bruteprotect": "*",
-		"wpackagist/google-authenticator": "*"
+		"wpackagist/google-authenticator": "*",
+		"lillehummer/advanced-custom-fields-pro": "*"
 	},
 	"require-dev": {
         "wpackagist/query-monitor": "*",

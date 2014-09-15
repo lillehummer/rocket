@@ -3,7 +3,7 @@
     [
         {
             "name": "theme",
-            "path": "app/themes/bones",
+            "path": "app/themes/lillehummernl",
             "folder_exclude_patterns": [],
             "file_exclude_patterns": ["*.css", "*.min.js"]
         },
