@@ -14,15 +14,16 @@
 	],
 	"require"     : {
 		"johnpbloch/wordpress": "~4",
-		"wpackagist/wordpress-seo": "*",
-		"wpackagist/google-analytics-for-wordpress": "*",
-		"wpackagist/regenerate-thumbnails": "*",
-		"wpackagist/w3-total-cache": "*",
-		"wpackagist/better-wp-security": "~4",
-		"wpackagist/wordfence": "*",
-		"wpackagist/bruteprotect": "*",
-		"wpackagist/google-authenticator": "*",
-		"lillehummer/advanced-custom-fields-pro": "*"
+		"wpackagist-plugin/wordpress-seo": "*",
+		"wpackagist-plugin/google-analytics-for-wordpress": "*",
+		"wpackagist-plugin/regenerate-thumbnails": "*",
+		"wpackagist-plugin/better-wp-security": "*",
+		"wpackagist-plugin/wordfence": "*",
+		"wpackagist-plugin/bruteprotect": "*",
+		"wpackagist-plugin/google-authenticator": "*",
+		"wpackagist-plugin/ricg-responsive-images": "*",
+		"lillehummer/advanced-custom-fields-pro": "*",
+		"lillehummer/wp-rocket": "*"
 	},
 	"require-dev": {
         "wpackagist/query-monitor": "*",

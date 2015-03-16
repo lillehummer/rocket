@@ -17,6 +17,7 @@ app/mu-plugins/*
 # Vendor (e.g. Composer)
 vendor/*
 !vendor/.gitkeep
+node_modules
 
 # CodeKit
 .sass-cache
