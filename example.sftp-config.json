@@ -37,7 +37,8 @@
         "local-config\\.php",
         "\\.scss",
         "node_modules/",
-        "gulpfile\\.js"
+        "gulpfile\\.js",
+        "composer\\.json"
     ],
     //"file_permissions": "664",
     //"dir_permissions": "775",
