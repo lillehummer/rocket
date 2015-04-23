@@ -58,3 +58,7 @@ local-config.php
 /app/w3tc-*/**/**
 /app/advanced-cache.php
 /app/object-cache.php
+
+# Build files
+npm-debug.log
+bower
