@@ -1,0 +1,58 @@
+local:
+  vhost: "http://lillehummer.local"
+  wordpress_path: "/Users/charles/Sites/lillehummernl" # use an absolute path here
+
+  database:
+    name: "lillehummernl"
+    user: "root"
+    password: "root"
+    host: "127.0.0.1"
+
+staging:
+  vhost: "http://staging.lillehummer.nl/lillehummernl"
+  wordpress_path: "/home/cjambeaumont/webapps/phpapp/lillehummernl" # use an absolute path here
+
+  database:
+    name: "database_name"
+    user: "user"
+    password: "password"
+    host: "localhost"
+    # port: "3308" # Use just in case you have exotic server config
+
+  exclude:
+    - ".git/"
+    - ".gitignore"
+    - ".sass-cache/"
+    - "bin/"
+    - "tmp/*"
+    - "Gemfile*"
+    - "Movefile"
+    - "wp-config.php"
+    - "wp-content/*.sql"
+
+  paths: # you can customize wordpress internal paths
+     wp_content: "app"
+     uploads: "app/uploads"
+     plugins: "app/plugins"
+     themes: "app/themes"
+     languages: "app/languages"
+
+   ssh:
+     host: "cjambeaumont.webfactional.com"
+     user: "cjambeaumont"
+  #   password: "password" # password is optional, will use public keys if available.
+  #   port: 22 # Port is optional
+     rsync_options: "--verbose" # Additional rsync options, optional
+  #   gateway: # Gateway is optional
+  #     host: "host"
+  #     user: "user"
+  #     password: "password" # password is optional, will use public keys if available.
+
+  # ftp:
+  #   user: "user"
+  #   password: "password"
+  #   host: "host"
+  #   passive: true
+
+# production: # multiple environments can be specified
+#   [...]
