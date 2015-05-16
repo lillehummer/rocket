@@ -8,6 +8,13 @@ local:
     password: "root"
     host: "127.0.0.1"
 
+  paths: # you can customize wordpress internal paths
+    wp_content: "/app"
+    uploads: "/app/uploads"
+    plugins: "/app/plugins"
+    themes: "/app/themes"
+    languages: "/app/languages"
+
 staging:
   vhost: "http://staging.lillehummer.nl/lillehummernl"
   wordpress_path: "/home/cjambeaumont/webapps/phpapp/lillehummernl" # use an absolute path here
@@ -28,7 +35,8 @@ staging:
     - "Gemfile*"
     - "Movefile"
     - "wp-config.php"
-    - "wp-content/*.sql"
+    - "app/*.sql"
+    - ".DS_Store"
 
   paths: # you can customize wordpress internal paths
      wp_content: "app"
