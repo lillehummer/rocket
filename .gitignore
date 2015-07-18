@@ -17,10 +17,7 @@ app/mu-plugins/*
 # Vendor (e.g. Composer)
 vendor/*
 !vendor/.gitkeep
-node_modules
 
-# CodeKit
-.sass-cache
 
 # OS generated files
 .DS_Store
@@ -62,3 +59,7 @@ local-config.php
 # Build files
 npm-debug.log
 bower
+*.sql
+rev-manifest.json
+.sass-cache
+node_modules
