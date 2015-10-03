@@ -18,9 +18,7 @@
 		"wpackagist-plugin/google-analytics-for-wordpress": "*",
 		"wpackagist-plugin/w3-total-cache": "*",
 		"wpackagist-plugin/regenerate-thumbnails": "*",
-		"wpackagist-plugin/better-wp-security": "*",
 		"wpackagist-plugin/google-authenticator": "*",
-		"wpackagist-plugin/ricg-responsive-images": "*",
 		"lillehummer/advanced-custom-fields-pro": "*"
 	},
 	"require-dev": {

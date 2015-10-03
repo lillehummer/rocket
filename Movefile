@@ -6,7 +6,7 @@ local:
     name: "lillehummernl"
     user: "root"
     password: "root"
-    host: "127.0.0.1"
+    host: "localhost"
 
   paths: # you can customize wordpress internal paths
     wp_content: "/app"
@@ -37,20 +37,24 @@ staging:
     - "wp-config.php"
     - "app/*.sql"
     - ".DS_Store"
+    - "node_modules"
+    - "bower"
+    - ".DS_Store"
+    - "src"
 
   paths: # you can customize wordpress internal paths
-     wp_content: "app"
-     uploads: "app/uploads"
-     plugins: "app/plugins"
-     themes: "app/themes"
-     languages: "app/languages"
+    wp_content: "app"
+    uploads: "app/uploads"
+    plugins: "app/plugins"
+    themes: "app/themes"
+    languages: "app/languages"
 
-   ssh:
-     host: "cjambeaumont.webfactional.com"
-     user: "cjambeaumont"
+  ssh:
+    host: "cjambeaumont.webfactional.com"
+    user: "cjambeaumont"
   #   password: "password" # password is optional, will use public keys if available.
   #   port: 22 # Port is optional
-     rsync_options: "--verbose" # Additional rsync options, optional
+    rsync_options: "--verbose" # Additional rsync options, optional
   #   gateway: # Gateway is optional
   #     host: "host"
   #     user: "user"
