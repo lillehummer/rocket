@@ -20,8 +20,8 @@ staging:
   wordpress_path: "/home/cjambeaumont/webapps/phpapp/lillehummernl" # use an absolute path here
 
   database:
-    name: "database_name"
-    user: "user"
+    name: "lillehummernl"
+    user: "lillehummernl"
     password: "password"
     host: "localhost"
     # port: "3308" # Use just in case you have exotic server config
@@ -39,7 +39,10 @@ staging:
     - ".DS_Store"
     - "node_modules"
     - "bower"
+<<<<<<< Updated upstream
     - ".DS_Store"
+=======
+>>>>>>> Stashed changes
     - "src"
 
   paths: # you can customize wordpress internal paths
@@ -52,19 +55,19 @@ staging:
   ssh:
     host: "cjambeaumont.webfactional.com"
     user: "cjambeaumont"
-  #   password: "password" # password is optional, will use public keys if available.
-  #   port: 22 # Port is optional
+    #   password: "password" # password is optional, will use public keys if available.
+    #   port: 22 # Port is optional
     rsync_options: "--verbose" # Additional rsync options, optional
-  #   gateway: # Gateway is optional
-  #     host: "host"
-  #     user: "user"
-  #     password: "password" # password is optional, will use public keys if available.
+    #   gateway: # Gateway is optional
+    #     host: "host"
+    #     user: "user"
+    #     password: "password" # password is optional, will use public keys if available.
 
-  # ftp:
-  #   user: "user"
-  #   password: "password"
-  #   host: "host"
-  #   passive: true
+    # ftp:
+    #   user: "user"
+    #   password: "password"
+    #   host: "host"
+    #   passive: true
 
 # production: # multiple environments can be specified
 #   [...]

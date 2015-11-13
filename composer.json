@@ -19,7 +19,8 @@
 		"wpackagist-plugin/w3-total-cache": "*",
 		"wpackagist-plugin/regenerate-thumbnails": "*",
 		"wpackagist-plugin/google-authenticator": "*",
-		"lillehummer/advanced-custom-fields-pro": "*"
+		"lillehummer/advanced-custom-fields-pro": "*",
+    "wpackagist-plugin/wpremote": "*"
 	},
 	"require-dev": {
         "wpackagist/query-monitor": "*",
