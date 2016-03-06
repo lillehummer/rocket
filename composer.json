@@ -14,18 +14,15 @@
 	],
 	"require"     : {
 		"johnpbloch/wordpress": "~4",
+    "wpackagist-plugin/rest-api": "*",
 		"wpackagist-plugin/wordpress-seo": "*",
 		"wpackagist-plugin/google-analytics-for-wordpress": "*",
 		"wpackagist-plugin/w3-total-cache": "*",
 		"wpackagist-plugin/regenerate-thumbnails": "*",
 		"wpackagist-plugin/google-authenticator": "*",
+    "wpackagist-plugin/wpremote": "*",
 		"lillehummer/advanced-custom-fields-pro": "*"
 	},
-	"require-dev": {
-        "wpackagist/query-monitor": "*",
-        "wpackagist/theme-check": "*",
-        "wpackagist/developer": "*"
-    },
 	"autoload": {
         "psr-0": { "": "src/" }
     },
