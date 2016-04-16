@@ -4,14 +4,14 @@
         {
             "name": "theme",
             "path": "app/themes/lillehummernl",
-            "folder_exclude_patterns": ["node_modules"],
-            "file_exclude_patterns": ["*.css", "*.min.js"]
+            "folder_exclude_patterns": ["node_modules", "/js", "/css", "/src/rev/css", "/src/rev/js"],
+            "file_exclude_patterns": [".sublime-gulp.cache"]
         },
         {
             "name": "root",
             "path": "/",
-            "folder_exclude_patterns": ["wp", "app"],
-            "file_exclude_patterns": []
+            "folder_exclude_patterns": ["wp", "app", "src", "vendor"],
+            "file_exclude_patterns": ["composer.lock"]
         }
     ],
     "settings":
