@@ -41,6 +41,11 @@ staging:
     - "bower"
     - ".DS_Store"
     - "src"
+    - ".sublime-gulp.cache"
+    - "bower.json"
+    - "package.json"
+    - ".bowerrc"
+    - ".git"
 
   paths: # you can customize wordpress internal paths
     wp_content: "app"

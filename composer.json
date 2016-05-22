@@ -14,7 +14,7 @@
 	],
 	"require"     : {
 		"johnpbloch/wordpress": "~4",
-    "wpackagist-plugin/rest-api": "*",
+    "wpackagist-plugin/rest-api": "2.0-beta13",
 		"wpackagist-plugin/wordpress-seo": "*",
 		"wpackagist-plugin/google-analytics-for-wordpress": "*",
 		"wpackagist-plugin/w3-total-cache": "*",
@@ -23,6 +23,9 @@
     "wpackagist-plugin/wpremote": "*",
 		"lillehummer/advanced-custom-fields-pro": "*"
 	},
+  "require-dev": {
+        "wpackagist-plugin/query-monitor": "*"
+  },
 	"autoload": {
         "psr-0": { "": "src/" }
     },
