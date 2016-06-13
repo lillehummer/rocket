@@ -7,11 +7,13 @@ if ( file_exists( dirname( __FILE__ ) . '/local-config.php' ) ) {
 } else {
 	define('DB_NAME', 'lillehummernl');
 	define('DB_USER', 'root');
-	define('DB_PASSWORD', 'root');
-	define('DB_HOST', 'localhost');
+	define('DB_PASSWORD', '');
+	define('DB_HOST', '127.0.0.1');
 
 	define( 'WP_CONTENT_DIR', dirname( __FILE__ ) . '/app' );
 	define( 'WP_CONTENT_URL', 'http://' . $_SERVER['HTTP_HOST'] . '/app' );
+
+  define( 'ENVIRONMENT', 'development' );
 }
 
 // ================================================
@@ -24,7 +26,6 @@ define( 'DB_COLLATE', '' );
 // https://api.wordpress.org/secret-key/1.1/salt
 // ===================
 require('salts.php');
-
 
 // ============
 // Table prefix

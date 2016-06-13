@@ -14,6 +14,7 @@
 	],
 	"require"     : {
 		"johnpbloch/wordpress": "~4",
+    "roots/soil": "*",
     "wpackagist-plugin/rest-api": "2.0-beta13",
 		"wpackagist-plugin/wordpress-seo": "*",
 		"wpackagist-plugin/google-analytics-for-wordpress": "*",
