@@ -1,36 +1,38 @@
 {
-	"name"        : "lillehummer/lillehummernl",
-	"description" : "WordPress package developed by Lille Hummer.",
-	"type"        : "project",
-	"repositories": [
-		{
-			"type": "composer",
-			"url" : "http://wpackagist.org"
-		},
-		{
-			"type": "composer",
-			"url": "http://packages.lillehummer.nl"
-		}
-	],
-	"require"     : {
-		"johnpbloch/wordpress": "~4",
-    "roots/soil": "*",
-    "wpackagist-plugin/rest-api": "2.0-beta13",
-		"wpackagist-plugin/wordpress-seo": "*",
-		"wpackagist-plugin/google-analytics-for-wordpress": "*",
-		"wpackagist-plugin/w3-total-cache": "*",
-		"wpackagist-plugin/regenerate-thumbnails": "*",
-		"wpackagist-plugin/google-authenticator": "*",
-    "wpackagist-plugin/wpremote": "*",
-		"lillehummer/advanced-custom-fields-pro": "*"
-	},
-  "require-dev": {
+    "name"        : "lillehummer/lillehummernl",
+    "description" : "WordPress package developed by Lille Hummer.",
+    "type"        : "project",
+    "repositories": [
+        {
+            "type": "composer",
+            "url" : "http://wpackagist.org"
+        },
+        {
+            "type": "composer",
+            "url": "http://packages.lillehummer.nl"
+        }
+    ],
+    "require"     : {
+        "johnpbloch/wordpress": "~4",
+        "roots/soil": "*",
+        "wpackagist-plugin/wordpress-seo": "*",
+        "wpackagist-plugin/google-analytics-for-wordpress": "*",
+        "wpackagist-plugin/regenerate-thumbnails": "*",
+        "wpackagist-plugin/google-authenticator": "*",
+        "wpackagist-plugin/wpremote": "*",
+        "wpackagist-plugin/kraken-image-optimizer": "*",
+        "wpackagist-plugin/multilingual-press": "*",
+        "wpackagist-plugin/memcached-redux": "*",
+        "lillehummer/advanced-custom-fields-pro": "*",
+        "lillehummer/wp-rocket": "*"
+    },
+    "require-dev": {
         "wpackagist-plugin/query-monitor": "*"
-  },
-	"autoload": {
+    },
+    "autoload": {
         "psr-0": { "": "src/" }
     },
-	"scripts": {
+    "scripts": {
         "post-install-cmd": [
             "lillehummer\\Wordpress\\Composer\\ScriptHandler::generateRandomKeys"
         ],
@@ -38,14 +40,14 @@
             "lillehummer\\Wordpress\\Composer\\ScriptHandler::generateRandomKeys"
         ]
     },
-	"extra"       : {
-		"wordpress-install-dir": "wp",
-		"installer-paths"      : {
-			"app/plugins/{$name}"   : ["type:wordpress-plugin"],
-			"app/mu-plugins/{$name}": ["type:wordpress-muplugin"],
-			"app/themes/{$name}"    : ["type:wordpress-theme"]
-		}
-	},
+    "extra"       : {
+        "wordpress-install-dir": "wp",
+        "installer-paths"      : {
+            "app/plugins/{$name}"   : ["type:wordpress-plugin"],
+            "app/mu-plugins/{$name}": ["type:wordpress-muplugin"],
+            "app/themes/{$name}"    : ["type:wordpress-theme"]
+        }
+    },
   "config": {
     "secure-http": "false"
   }
