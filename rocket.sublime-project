@@ -4,7 +4,12 @@
         {
             "name": "theme",
             "path": "app/themes/lillehummernl",
-            "folder_exclude_patterns": ["node_modules", "/js", "/css", "/src/rev/css", "/src/rev/js"],
+            "folder_exclude_patterns": [
+                "node_modules",
+                "app/themes/lillehummernl/js",
+                "app/themes/lillehummernl/css",
+                "app/themes/lillehummernl/src/rev"
+            ],
             "file_exclude_patterns": [".sublime-gulp.cache"]
         },
         {
