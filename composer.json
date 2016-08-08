@@ -13,7 +13,6 @@
         }
     ],
     "require"     : {
-        "johnpbloch/wordpress": "~4",
         "roots/soil": "*",
         "wpackagist-plugin/wordpress-seo": "*",
         "wpackagist-plugin/google-analytics-for-wordpress": "*",
@@ -29,26 +28,18 @@
     "require-dev": {
         "wpackagist-plugin/query-monitor": "*"
     },
-    "autoload": {
-        "psr-0": { "": "src/" }
-    },
-    "scripts": {
-        "post-install-cmd": [
-            "lillehummer\\Wordpress\\Composer\\ScriptHandler::generateRandomKeys"
-        ],
-        "post-update-cmd": [
-            "lillehummer\\Wordpress\\Composer\\ScriptHandler::generateRandomKeys"
-        ]
-    },
     "extra"       : {
-        "wordpress-install-dir": "wp",
         "installer-paths"      : {
-            "app/plugins/{$name}"   : ["type:wordpress-plugin"],
-            "app/mu-plugins/{$name}": ["type:wordpress-muplugin"],
-            "app/themes/{$name}"    : ["type:wordpress-theme"]
+            "wp-content/plugins/{$name}"   : ["type:wordpress-plugin"],
+            "wp-content/mu-plugins/{$name}": ["type:wordpress-muplugin"],
+            "wp-content/themes/{$name}"    : ["type:wordpress-theme"]
         }
     },
-  "config": {
-    "secure-http": "false"
-  }
+    "scripts": {
+        "pre-install-cmd": "sh ./src/pre-install.sh",
+        "post-install-cmd": "sh ./src/post-install.sh"
+    },
+    "config": {
+        "secure-http": false
+    }
 }
