@@ -23,7 +23,8 @@
         "wpackagist-plugin/multilingual-press": "*",
         "wpackagist-plugin/memcached-redux": "*",
         "lillehummer/advanced-custom-fields-pro": "*",
-        "lillehummer/wp-rocket": "*"
+        "lillehummer/wp-rocket": "*",
+        "dachcom-digital/acf-yoast-seo-validation": "*"
     },
     "require-dev": {
         "wpackagist-plugin/query-monitor": "*"
