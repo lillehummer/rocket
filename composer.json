@@ -27,7 +27,8 @@
         "dachcom-digital/acf-yoast-seo-validation": "*"
     },
     "require-dev": {
-        "wpackagist-plugin/query-monitor": "*"
+        "wpackagist-plugin/query-monitor": "*",
+        "manovotny/wptest": "*"
     },
     "extra"       : {
         "installer-paths"      : {
