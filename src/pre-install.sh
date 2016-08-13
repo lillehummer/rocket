@@ -18,6 +18,6 @@ fi
 
 cd wp-content/themes/${PWD##*/}
 printf '\e[0;96m Updating NPM...\e[0m\n'
-# npm install
+npm install
 printf '\e[0;96m Updating Bower...\e[0m\n'
-# bower install
+bower install
