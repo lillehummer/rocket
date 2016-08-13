@@ -23,12 +23,10 @@
         "wpackagist-plugin/multilingual-press": "*",
         "wpackagist-plugin/memcached-redux": "*",
         "lillehummer/advanced-custom-fields-pro": "*",
-        "lillehummer/wp-rocket": "*",
-        "dachcom-digital/acf-yoast-seo-validation": "*"
+        "lillehummer/wp-rocket": "*"
     },
     "require-dev": {
-        "wpackagist-plugin/query-monitor": "*",
-        "manovotny/wptest": "*"
+        "wpackagist-plugin/query-monitor": "*"
     },
     "extra"       : {
         "installer-paths"      : {
@@ -38,8 +36,8 @@
         }
     },
     "scripts": {
-        "pre-install-cmd": "sh ./src/pre-install.sh",
-        "post-install-cmd": "sh ./src/post-install.sh"
+        "pre-update-cmd": "sh ./src/pre-install.sh",
+        "post-update-cmd": "sh ./src/post-install.sh"
     },
     "config": {
         "secure-http": false
