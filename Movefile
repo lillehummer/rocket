@@ -1,5 +1,5 @@
 local:
-  vhost: "http://lillehummernl.local"
+  vhost: "http://lillehummernl.dev"
   wordpress_path: "/Users/charles/Sites/lillehummernl" # use an absolute path here
 
   database:
@@ -9,11 +9,11 @@ local:
     host: "127.0.0.1"
 
   paths: # you can customize wordpress internal paths
-    wp_content: "/app"
-    uploads: "/app/uploads"
-    plugins: "/app/plugins"
-    themes: "/app/themes"
-    languages: "/app/languages"
+    wp_content: "/wp-content"
+    uploads: "/wp-content/uploads"
+    plugins: "/wp-content/plugins"
+    themes: "/wp-content/themes"
+    languages: "/wp-content/languages"
 
 staging:
   vhost: "http://staging.lillehummer.nl/lillehummernl"
@@ -48,11 +48,11 @@ staging:
     - ".git"
 
   paths: # you can customize wordpress internal paths
-    wp_content: "app"
-    uploads: "app/uploads"
-    plugins: "app/plugins"
-    themes: "app/themes"
-    languages: "app/languages"
+    wp_content: "wp-content"
+    uploads: "wp-content/uploads"
+    plugins: "wp-content/plugins"
+    themes: "wp-content/themes"
+    languages: "wp-content/languages"
 
   ssh:
     host: "cjambeaumont.webfactional.com"
