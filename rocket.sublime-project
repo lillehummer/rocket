@@ -3,19 +3,20 @@
     [
         {
             "name": "theme",
-            "path": "app/themes/lillehummernl",
+            "path": "wp-content/themes/lillehummernl",
             "folder_exclude_patterns": [
                 "node_modules",
-                "app/themes/lillehummernl/js",
-                "app/themes/lillehummernl/css",
-                "app/themes/lillehummernl/src/rev"
+                "wp-content/themes/lillehummernl/js",
+                "wp-content/themes/lillehummernl/css",
+                "wp-content/themes/lillehummernl/src/rev/js",
+                "wp-content/themes/lillehummernl/src/rev/css"
             ],
             "file_exclude_patterns": [".sublime-gulp.cache"]
         },
         {
             "name": "root",
             "path": "/",
-            "folder_exclude_patterns": ["wp", "app", "src", "vendor"],
+            "folder_exclude_patterns": ["wp-admin", "wp-includes", "wp-content", "src", "vendor"],
             "file_exclude_patterns": ["composer.lock"]
         }
     ],
