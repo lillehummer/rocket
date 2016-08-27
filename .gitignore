@@ -73,6 +73,7 @@ Thumbs.db
 !LICENSE
 !.htaccess
 !wp-config.php
+!.stylelintrc
 
 # track these mu-plugins, plugins, and themes
 # add your own entries here
