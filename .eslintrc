@@ -1,0 +1,16 @@
+{
+    "extends": "standard",
+    "plugins": [
+        "standard",
+        "promise"
+    ],
+    "rules": {
+        "indent": ["error", 4],
+        "semi": ["error", "always"],
+        "space-in-parens": ["error", "always"]
+    },
+    "env": {
+        "browser": true,
+        "jquery": true
+    }
+}

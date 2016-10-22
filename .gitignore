@@ -3,48 +3,34 @@
 !wp-content/
 !src/
 
-# ignore everything in the "wp-content" directory, except:
-# mu-plugins, plugins, and themes directories
-wp-content/*
-!wp-content/mu-plugins/
-!wp-content/plugins/
-!wp-content/themes/
-
-# ignore all mu-plugins, plugins, and themes
-# unless explicitly whitelisted at the end of this file
+# Ignore wp-content directory files.
 wp-content/mu-plugins/*
 wp-content/plugins/*
 wp-content/themes/*
 
-# ignore all files starting with . or ~
+# Ignore all files starting with . or ~.
 .*
 ~*
 
-# ignore node dependency directories (used by grunt)
+# Ignore package dependency files.
 node_modules/
 bower/
 
-# ignore OS generated files
+# Ignore OS generated files.
 ehthumbs.db
 Thumbs.db
 
-# ignore Editor files
+# Ignore editor files.
 *.sublime-workspace
+.sublime-gulp.cache
 
-# ignore log files and databases
+# Ignore log files and databases.
 *.log
 *.sql
 *.sqlite
+*.sql.gz
 
-# ignore compiled files
-*.com
-*.class
-*.dll
-*.exe
-*.o
-*.so
-
-# ignore packaged files
+# Ignore packaged files.
 *.7z
 *.dmg
 *.gz
@@ -54,11 +40,7 @@ Thumbs.db
 *.tar
 *.zip
 
-# -------------------------
-# BEGIN Whitelisted Files
-# -------------------------
-
-# track these files, if they exist
+# Track root directory files.
 !*.sublime-project
 !.gitignore
 !.gitkeep
@@ -74,7 +56,13 @@ Thumbs.db
 !.htaccess
 !wp-config.php
 !.stylelintrc
+!.eslintrc
 
-# track these mu-plugins, plugins, and themes
-# add your own entries here
+# Track theme directory.
 !wp-content/themes/lillehummernl/
+
+# Ignore build files.
+wp-content/themes/lillehummernl/functions.php
+wp-content/themes/lillehummernl/css
+wp-content/themes/lillehummernl/js
+rev-manifest.json
