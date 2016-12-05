@@ -8,9 +8,10 @@
                 "node_modules",
                 "wp-content/themes/lillehummernl/js",
                 "wp-content/themes/lillehummernl/css",
-                "wp-content/themes/lillehummernl/src/rev"
+                "wp-content/themes/lillehummernl/src/rev/js",
+                "wp-content/themes/lillehummernl/src/rev/css"
             ],
-            "file_exclude_patterns": [".sublime-gulp.cache"]
+            "file_exclude_patterns": [".sublime-gulp.cache", "/wp-content/themes/lillehummernl/functions.php"]
         },
         {
             "name": "root",
