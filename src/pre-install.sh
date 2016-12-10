@@ -17,7 +17,5 @@ if [ ! -d wp-content/themes/${PWD##*/} ]; then
 fi
 
 cd wp-content/themes/${PWD##*/}
-printf '\e[0;96m Updating NPM...\e[0m\n'
-npm install
-printf '\e[0;96m Updating Bower...\e[0m\n'
-bower install
+printf '\e[0;96m Installing dependencies using Yarn...\e[0m\n'
+yarn install
