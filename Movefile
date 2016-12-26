@@ -1,6 +1,6 @@
 local:
   vhost: "http://lillehummernl.dev"
-  wordpress_path: "/Users/charles/Sites/lillehummernl" # use an absolute path here
+  wordpress_path: "/Users/charles/Sites/lillehummernl"
 
   database:
     name: "lillehummernl"
@@ -8,7 +8,7 @@ local:
     password: ""
     host: "127.0.0.1"
 
-  paths: # you can customize wordpress internal paths
+  paths:
     wp_content: "/wp-content"
     uploads: "/wp-content/uploads"
     plugins: "/wp-content/plugins"
@@ -17,7 +17,7 @@ local:
 
 staging:
   vhost: "http://staging.lillehummer.nl/lillehummernl"
-  wordpress_path: "/home/cjambeaumont/webapps/phpapp/lillehummernl" # use an absolute path here
+  wordpress_path: "/home/cjambeaumont/webapps/phpapp/lillehummernl"
 
   database:
     name: "lillehummernl"
@@ -47,7 +47,7 @@ staging:
     - ".bowerrc"
     - ".git"
 
-  paths: # you can customize wordpress internal paths
+  paths:
     wp_content: "wp-content"
     uploads: "wp-content/uploads"
     plugins: "wp-content/plugins"
@@ -57,19 +57,40 @@ staging:
   ssh:
     host: "cjambeaumont.webfactional.com"
     user: "cjambeaumont"
-    #   password: "password" # password is optional, will use public keys if available.
-    #   port: 22 # Port is optional
-    rsync_options: "--verbose" # Additional rsync options, optional
-    #   gateway: # Gateway is optional
-    #     host: "host"
-    #     user: "user"
-    #     password: "password" # password is optional, will use public keys if available.
+    rsync_options: "--verbose"
 
-    # ftp:
-    #   user: "user"
-    #   password: "password"
-    #   host: "host"
-    #   passive: true
-
-# production: # multiple environments can be specified
-#   [...]
+#production:
+#  vhost: "http://lillehummer.nl"
+#  wordpress_path: "/var/www/lillehummer/wordpress/current"
+#
+#  database:
+#    name: "lillehummer"
+#    user: "lillehummer"
+#    password: ""
+#    host: "127.0.0.1"
+#
+#  exclude:
+#    - ".git/"
+#    - ".gitignore"
+#    - ".sass-cache/"
+#    - "bin/"
+#    - "tmp/*"
+#    - "Gemfile*"
+#    - "Movefile"
+#    - "wp-config.php"
+#    - "app/*.sql"
+#    - ".DS_Store"
+#    - "node_modules"
+#    - "bower"
+#    - ".DS_Store"
+#    - "src"
+#    - ".sublime-gulp.cache"
+#    - "bower.json"
+#    - "package.json"
+#    - ".bowerrc"
+#    - ".git"
+#
+#  ssh:
+#    host: "lillehummer.savviihq.com"
+#    user: "lillehummer"
+#    rsync_options: "--verbose"
