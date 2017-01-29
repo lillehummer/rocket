@@ -15,9 +15,11 @@ wp-content/themes/*
 # Ignore package dependency files.
 node_modules/
 bower/
+yarn.lock
+mix-manifest.json
 
 # Ignore OS generated files.
-ehthumbs.db
+thumbs.db
 Thumbs.db
 
 # Ignore editor files.
@@ -65,4 +67,6 @@ Thumbs.db
 wp-content/themes/lillehummernl/functions.php
 wp-content/themes/lillehummernl/css
 wp-content/themes/lillehummernl/js
+wp-content/themes/lillehummernl/src/rev/css
+wp-content/themes/lillehummernl/src/rev/js
 rev-manifest.json
