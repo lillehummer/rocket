@@ -13,6 +13,7 @@
         }
     ],
     "require"     : {
+        "vlucas/phpdotenv": "*",
         "wpackagist-plugin/wordpress-seo": "*",
         "wpackagist-plugin/google-analytics-for-wordpress": "*",
         "wpackagist-plugin/regenerate-thumbnails": "*",
