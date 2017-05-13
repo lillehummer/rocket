@@ -8,7 +8,7 @@ fi
 
 if [ ! -d wp-content/themes/${PWD##*/} ]; then
   printf '\e[0;96m Cloning theme...\e[0m\n'
-  git clone --depth=1 --branch=master git@github.com:lillehummer/exoskeleton.git wp-content/themes/${PWD##*/}
+  git clone --depth=1 --branch=master git@github.com:lillehummer/sabi.git wp-content/themes/${PWD##*/}
   rm -rf wp-content/themes/${PWD##*/}/.git
   printf '\e[0;96m Replacing strings in theme...\e[0m\n'
   egrep -lR --exclude='pre-install.sh' 'lillehummernl' . | xargs sed -i '' -e "s/lillehummernl/${PWD##*/}/g"
