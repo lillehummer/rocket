@@ -8,7 +8,7 @@ define('WP_ALLOW_MULTISITE', true);
 
 // ** MySQL settings ** //
 /** The name of the database for WordPress */
-define('DB_NAME', getenv('DB_NAME'));
+define('DB_NAME', getenv('DB_NAME') ?: 'lillehummernl');
 
 /** MySQL database username */
 define('DB_USER', getenv('DB_USER') ?: 'root');
