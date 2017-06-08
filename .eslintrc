@@ -1,16 +1,6 @@
 {
-    "extends": "standard",
-    "plugins": [
-        "standard",
-        "promise"
-    ],
+    "extends": "airbnb",
     "rules": {
-        "indent": ["error", 4],
-        "semi": ["error", "always"],
-        "space-in-parens": ["error", "always"]
-    },
-    "env": {
-        "browser": true,
-        "jquery": true
+        "comma-dangle": 0
     }
 }

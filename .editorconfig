@@ -11,4 +11,5 @@ indent_style = space
 indent_size = 4
 
 [*.php]
-indent_style = tab
+indent_style = space
+indent_style = 4

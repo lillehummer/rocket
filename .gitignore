@@ -16,7 +16,6 @@ wp-content/languages/*
 
 # Ignore package dependency files.
 node_modules/
-bower/
 yarn.lock
 mix-manifest.json
 
@@ -48,7 +47,6 @@ Thumbs.db
 !*.sublime-project
 !.gitignore
 !.gitkeep
-!.bowerrc
 !.editorconfig
 !README.md
 !CHANGELOG.md
@@ -62,6 +60,8 @@ Thumbs.db
 !wp-config.php
 !.stylelintrc
 !.eslintrc
+!.jshintrc
+!.csscomb.json
 
 # Track theme directory.
 !wp-content/themes/lillehummernl/
