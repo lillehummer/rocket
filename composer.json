@@ -18,7 +18,7 @@
         "wpackagist-plugin/google-analytics-for-wordpress": "*",
         "wpackagist-plugin/regenerate-thumbnails": "*",
         "wpackagist-plugin/google-authenticator": "*",
-        "wpackagist-plugin/wpremote": "*",
+        "wpackagist-plugin/worker": "*",
         "wpackagist-plugin/kraken-image-optimizer": "*",
         "wpackagist-plugin/multilingual-press": "*",
         "wpackagist-plugin/memcached-redux": "*",
