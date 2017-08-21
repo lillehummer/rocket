@@ -1,5 +1,4 @@
 # WordPress site developed by 101010
-============
 
 ## Requirements
 

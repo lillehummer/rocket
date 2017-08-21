@@ -16,8 +16,8 @@ local:
     languages: "/wp-content/languages"
 
 staging:
-  vhost: "http://staging.lillehummer.nl/lillehummernl"
-  wordpress_path: "/home/cjambeaumont/webapps/phpapp/lillehummernl"
+  vhost: "http://lillehummernl.lillehummer.digital"
+  wordpress_path: "/home/forge/lillehummernl.lillehummer.digital"
 
   database:
     name: "lillehummernl"
@@ -55,8 +55,8 @@ staging:
     languages: "wp-content/languages"
 
   ssh:
-    host: "cjambeaumont.webfactional.com"
-    user: "cjambeaumont"
+    host: "lillehummer.digital"
+    user: "forge"
     rsync_options: "--verbose"
 
 #production:
