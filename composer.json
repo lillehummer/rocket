@@ -15,6 +15,7 @@
     "require"     : {
         "vlucas/phpdotenv": "*",
         "wpackagist-plugin/wordpress-seo": "*",
+        "wpackagist-plugin/acf-content-analysis-for-yoast-seo": "*",
         "wpackagist-plugin/google-analytics-for-wordpress": "*",
         "wpackagist-plugin/regenerate-thumbnails": "*",
         "wpackagist-plugin/google-authenticator": "*",
