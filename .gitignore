@@ -171,8 +171,12 @@ wp-content/languages/*
 !wp-config.php
 !.stylelintrc
 !.eslintrc
-!.jshintrc
 !.csscomb.json
+!.gitattributes
+!deploy.php
+!humans.txt
+!site.webmanifest
+!browserconfig.xml
 
 # Track theme directory.
 !wp-content/themes/lillehummernl/
