@@ -1,5 +1,5 @@
 local:
-  vhost: "http://lillehummernl.dev"
+  vhost: "http://lillehummernl.test"
   wordpress_path: "/Users/charles/Sites/lillehummernl"
 
   database:
@@ -16,8 +16,8 @@ local:
     languages: "/wp-content/languages"
 
 staging:
-  vhost: "http://lillehummernl.lillehummer.digital"
-  wordpress_path: "/home/forge/lillehummernl.lillehummer.digital"
+  vhost: "http://lillehummernl.101010.cloud"
+  wordpress_path: "/home/forge/lillehummernl.101010.cloud"
 
   database:
     name: "lillehummernl"
@@ -55,42 +55,6 @@ staging:
     languages: "wp-content/languages"
 
   ssh:
-    host: "lillehummer.digital"
+    host: "101010.cloud"
     user: "forge"
     rsync_options: "--verbose"
-
-#production:
-#  vhost: "http://lillehummer.nl"
-#  wordpress_path: "/var/www/lillehummer/wordpress/current"
-#
-#  database:
-#    name: "lillehummer"
-#    user: "lillehummer"
-#    password: ""
-#    host: "127.0.0.1"
-#
-#  exclude:
-#    - ".git/"
-#    - ".gitignore"
-#    - ".sass-cache/"
-#    - "bin/"
-#    - "tmp/*"
-#    - "Gemfile*"
-#    - "Movefile"
-#    - "wp-config.php"
-#    - "app/*.sql"
-#    - ".DS_Store"
-#    - "node_modules"
-#    - "bower"
-#    - ".DS_Store"
-#    - "src"
-#    - ".sublime-gulp.cache"
-#    - "bower.json"
-#    - "package.json"
-#    - ".bowerrc"
-#    - ".git"
-#
-#  ssh:
-#    host: "lillehummer.savviihq.com"
-#    user: "lillehummer"
-#    rsync_options: "--verbose"

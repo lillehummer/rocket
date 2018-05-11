@@ -8,4 +8,4 @@ mysql -u root -e "CREATE DATABASE IF NOT EXISTS ${PWD##*/};"
 
 printf '\e[0;96m Installing WordPress...\e[0m\n'
 wp core config --dbname=${PWD##*/} --dbuser=root --dbpass=
-wp core install --url=${PWD##*/}.dev --title=$sitename --admin_user=local --admin_password=local --admin_email=local@local.local
+wp core install --url=${PWD##*/}.test --title=$sitename --admin_user=local --admin_password=local --admin_email=local@local.local
