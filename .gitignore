@@ -182,6 +182,7 @@ wp-content/languages/*
 !wp-content/themes/lillehummernl/
 
 # Ignore build files.
+wp-content/themes/lillehummernl/monitor
 wp-content/themes/lillehummernl/css
 wp-content/themes/lillehummernl/js
 wp-content/themes/lillehummernl/img

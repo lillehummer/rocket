@@ -5,11 +5,11 @@
     "repositories": [
         {
             "type": "composer",
-            "url" : "http://wpackagist.org"
+            "url" : "https://wpackagist.org"
         },
         {
             "type": "composer",
-            "url": "http://lillehummer:satis@packages.lillehummer.digital"
+            "url": "https://lillehummer:satis@packages.lillehummer.digital"
         }
     ],
     "require"     : {
