@@ -1,4 +1,4 @@
-# WordPress site developed by 101010
+# WordPress site developed by lillehummer
 
 ## Requirements
 

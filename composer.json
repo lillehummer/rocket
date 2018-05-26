@@ -9,7 +9,7 @@
         },
         {
             "type": "composer",
-            "url": "https://lillehummer:satis@packages.lillehummer.digital"
+            "url": "http://lillehummer:satis@packages.lillehummer.digital"
         }
     ],
     "require"     : {

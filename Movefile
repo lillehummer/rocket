@@ -1,3 +1,5 @@
+global:
+  sql_adapter: "default"
 local:
   vhost: "http://lillehummernl.test"
   wordpress_path: "/Users/charles/Sites/lillehummernl"
@@ -16,8 +18,8 @@ local:
     languages: "/wp-content/languages"
 
 staging:
-  vhost: "http://lillehummernl.101010.cloud"
-  wordpress_path: "/home/forge/lillehummernl.101010.cloud"
+  vhost: "http://lillehummernl.lillehummer.digital"
+  wordpress_path: "/home/forge/lillehummernl.lillehummer.digital"
 
   database:
     name: "lillehummernl"
@@ -55,6 +57,6 @@ staging:
     languages: "wp-content/languages"
 
   ssh:
-    host: "101010.cloud"
+    host: "lillehummer.digital"
     user: "forge"
     rsync_options: "--verbose"
