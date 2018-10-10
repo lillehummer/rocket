@@ -3,11 +3,11 @@
     [
         {
             "name": "theme",
-            "path": "wp-content/themes/lillehummernl",
+            "path": "wp-content/themes/boilerplatesamtnl",
             "folder_exclude_patterns": [
                 "node_modules",
-                "wp-content/themes/lillehummernl/js",
-                "wp-content/themes/lillehummernl/css"
+                "wp-content/themes/boilerplatesamtnl/js",
+                "wp-content/themes/boilerplatesamtnl/css"
             ],
             "file_exclude_patterns": [".sublime-gulp.cache"]
         },

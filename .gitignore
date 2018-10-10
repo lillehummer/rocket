@@ -179,11 +179,11 @@ wp-content/languages/*
 !browserconfig.xml
 
 # Track theme directory.
-!wp-content/themes/lillehummernl/
+!wp-content/themes/boilerplatesamtnl/
 
 # Ignore build files.
-wp-content/themes/lillehummernl/monitor
-wp-content/themes/lillehummernl/css
-wp-content/themes/lillehummernl/js
-wp-content/themes/lillehummernl/img
+wp-content/themes/boilerplatesamtnl/monitor
+wp-content/themes/boilerplatesamtnl/css
+wp-content/themes/boilerplatesamtnl/js
+wp-content/themes/boilerplatesamtnl/img
 manifest.json

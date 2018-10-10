@@ -1,5 +1,5 @@
 {
-    "name"        : "lillehummer/lillehummernl",
+    "name"        : "lillehummer/boilerplatesamtnl",
     "description" : "WordPress package developed by Lille Hummer.",
     "type"        : "project",
     "repositories": [

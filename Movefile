@@ -1,11 +1,11 @@
 global:
   sql_adapter: "default"
 local:
-  vhost: "http://lillehummernl.test"
-  wordpress_path: "/Users/charles/Sites/lillehummernl"
+  vhost: "http://boilerplatesamtnl.test"
+  wordpress_path: "/Users/charles/Sites/boilerplatesamtnl"
 
   database:
-    name: "lillehummernl"
+    name: "boilerplatesamtnl"
     user: "root"
     password: ""
     host: "127.0.0.1"
@@ -18,12 +18,12 @@ local:
     languages: "/wp-content/languages"
 
 staging:
-  vhost: "http://lillehummernl.lillehummer.digital"
-  wordpress_path: "/home/forge/lillehummernl.lillehummer.digital"
+  vhost: "http://boilerplatesamtnl.lillehummer.digital"
+  wordpress_path: "/home/forge/boilerplatesamtnl.lillehummer.digital"
 
   database:
-    name: "lillehummernl"
-    user: "lillehummernl"
+    name: "boilerplatesamtnl"
+    user: "boilerplatesamtnl"
     password: "password"
     host: "localhost"
     # port: "3308" # Use just in case you have exotic server config
